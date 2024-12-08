@@ -86,7 +86,7 @@ export default function Main(){
 
                 <input
                 type="text"
-                placeholder="Adicionar Repositorios"
+                placeholder="Adicionar Repositorios ex: 'facebook/react'"
                 value={newRepo}
                 onChange={handleinputChange}
                 />
