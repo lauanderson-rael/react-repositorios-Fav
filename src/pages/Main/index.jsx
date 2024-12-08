@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
 import { FaGithub, FaPlus, FaSpinner, FaBars, FaTrash} from "react-icons/fa";
 import { Container, Form, SubmitButton, List, DeleteButton } from "./styles";
-import api from "../../services/Api";
+import api from "../../services/api.jsx";
 import { Link } from "react-router-dom";
 
 
