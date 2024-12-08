@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"
 import { FaArrowLeft } from "react-icons/fa"
 import { Container, Owner, Loading, BackButton, IssuesList, PageActions, FilterList} from "./styles"
 
-import api from "../../services/Api"
+import api from "../../services/api.js"
 
 
 export default function Repositorio(){
